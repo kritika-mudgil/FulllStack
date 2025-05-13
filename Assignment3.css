@@ -1,7 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: rgb(194, 207, 212);
 }
 
 label {
@@ -31,5 +31,5 @@ table {
 
 th, td {
     padding: 10px;
-    border: 1px solid #333;
+    border: 1px solid darkblue;
 }
