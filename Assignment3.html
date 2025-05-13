@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Student Registration Form</h1>
+        <h1>Marksheet Generator</h1>
         <form id="Registration">
             <div class="form">
             <label for="Name" class="Required">Full Name</label>
@@ -15,9 +15,6 @@
             <div class="error" id="Name error">Please enter your Name</div>
             </div><br>
 
-            <div class="form"><label for="Address" class="Required">Full Address</label>
-                <input type="text" id="Address" name="Address" required> 
-                <div class="error" id="Address error">Please enter your Address</div></div><br>
                 <div class="form">
                     <label for="Gender" class="Required">Gender:</label><br>
                     <input type="radio" id="Male" name="Gender" value="Male"> 
@@ -30,18 +27,21 @@
                         <input type="text" id="Course" name="Course" required> 
                         <div class="error" id="Name error">Please enter your Course</div>
                         </div><br>
-                        <div class="form">
-                            <label for="Blood Group" class="Required">Blood Group</label>
-                            <input type="text" id="Blood Group" name="Blood Group" required> 
-                            <div class="error" id="Name error">Please enter your Blood Group</div>
-                            </div><br>
+                        
                         
                             <div class="form">
-                                <label for="Emergency Contact" class="Required">Emergency Contact</label>
-                                <input type="text" id="Emergency Contact" name="Emergency Contact" required> 
-                                <div class="error" id="Name error">Please enter your Emergency Contact</div>
+                                <label for="Date of Birth" class="Required">D.O.B</label>
+                                <input type="text" id="Date of Birth" name="Date of Birth" required> 
+                                <div class="error" id="Name error">Please enter your Date of Birth</div>
                                 </div><br>
-                                <input type="submit" value="submit">
+                                
+
+                                <div class="form">
+                                    <label for="Pssing Year" class="Required">Passing Year</label>
+                                    <input type="text" id="Passing Year" name="Passing Year" required> 
+                                    <div class="error" id="Name error">Please enter your passing year</div>
+                                    </div><br>
+                                    <button type="generate">Generate Marksheet</button>
         </form>
 
     </div>
